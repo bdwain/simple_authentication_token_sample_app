@@ -12,7 +12,6 @@ module Api
       append_before_filter :authenticate_scope!, only: [:destroy]
 
       def create
-        puts "hi"
         puts sign_up_params.inspect
         build_resource(sign_up_params)
         if resource.save!
