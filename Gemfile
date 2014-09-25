@@ -30,8 +30,10 @@ gem 'devise'
 # Token authentication
 gem 'simple_token_authentication'
 
-# Use PostgreSQL as the database for ActiveRecord
-gem 'pg'
+gem "mysql2", ">= 0.3.11"
+
+# See https://github.com/sstephenson/execjs#readme for more supported runtimes
+gem "therubyracer", ">= 0.11.3", :platform => :ruby, :require => "v8"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

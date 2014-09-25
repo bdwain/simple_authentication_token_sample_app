@@ -1,25 +1,25 @@
 development:
-  adapter: postgresql
+  adapter: mysql2
   encoding: utf8
   database: greetings_development
   pool: 5
-  username: postgres
-  password: postgres
+  username: root
+  password: 
   host: localhost
 
 test:
-  adapter: postgresql
+  adapter: mysql2
   encoding: utf8
   database: greetings_test
   pool: 5
-  username: postgres
-  password: postgres
+  username: root
+  password: 
   host: localhost
 
 production:
-  adapter: postgresql
+  adapter: mysql2
   encoding: utf8
   database: greetings_production
   pool: 5
-  username: postgres
-  password: postgres
+  username: root
+  password: 
